@@ -1,0 +1,11 @@
+@import './_variables';
+
+* {
+    font-family: $font-main;
+    font-size: $size-normal;
+}
+
+* a {
+    color: black;
+    text-decoration: none;
+}
