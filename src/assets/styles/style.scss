@@ -1,11 +1,26 @@
 @import './_variables';
 
 * {
-    font-family: $font-main;
-    font-size: $size-normal;
-}
+  font-family: $font-main;
+  font-size: $size-normal;
+  color: $color-font;
 
-* a {
+  a {
     color: black;
     text-decoration: none;
+    cursor: pointer;
+  }
+  h2 {
+    margin-top: 0px;
+    position: absolute;
+    right: 50px;
+    text-align: right;
+    font-family: $font-title;
+    font-size: $size-title;
+    font-weight: 100;
+  }
+
+  .emphase {
+    font-weight: $font-medium;
+  }
 }

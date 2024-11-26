@@ -1,0 +1,66 @@
+.about {
+  position: absolute;
+  display: flex;
+  gap: 12px;
+  margin: 50px 0 50px 80px;
+  height: 90%;
+  width: 90%;
+}
+.about__resume {
+  position: relative;
+  background-color: #f4c095;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 30px;
+  cursor: pointer;
+}
+.about__resume--title {
+  height: 68%;
+  display: flex;
+  font: 500 2.25rem "Roboto Condensed", sans-serif;
+  text-wrap: wrap;
+  align-items: center;
+}
+.about__resume--title:active {
+  display: none;
+}
+.about__resume--txt {
+  display: none;
+}
+.about__resume--txt:active {
+  height: 68%;
+  display: flex;
+  text-wrap: wrap;
+  align-items: center;
+}
+.about__resume--logo {
+  position: absolute;
+  bottom: 0px;
+  width: 50%;
+  align-self: center;
+}
+.about__resume:active--title {
+  display: none;
+}
+.about__resume:active--txt {
+  display: flex;
+  height: 68%;
+  display: flex;
+  font: 500 2.25rem "Roboto Condensed", sans-serif;
+  text-wrap: wrap;
+  align-items: center;
+}
+.about__skills {
+  margin-top: 68px;
+  width: 80%;
+}
+.about__skills--comm {
+  height: 50%;
+  align-content: center;
+}
+.about__skills--dev {
+  height: 50%;
+  align-content: center;
+}/*# sourceMappingURL=about.css.map */

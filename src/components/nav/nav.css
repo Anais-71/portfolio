@@ -6,6 +6,7 @@
   height: 100%;
   justify-content: space-around;
   flex-wrap: nowrap;
+  margin-right: 12px;
 }
 .nav a {
   width: 90px;

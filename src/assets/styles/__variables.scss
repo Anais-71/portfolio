@@ -1,9 +1,17 @@
 //Fonts
-$font-main: "Roboto", sans-serif;
-$font-title: "Aboreto", system-ui;
-$font-normal: 400; 
+$font-main: 'Roboto', sans-serif;
+$font-big: 'Roboto Condensed', sans-serif;
+$font-title: 'Aboreto', system-ui;
+$font-normal: 400;
 $font-medium: 500;
-$size-normal: 1rem;
-$size-title: 4rem;
-$size-medium: 1.25rem;
-$size-big: 2.25rem;
+$size-normal: 1rem; //16px
+$size-medium: 1.25rem; //20px
+$size-big: 2.25rem; // 36px
+$size-title: 4rem; //64px
+
+//colors
+$color-about: #f4c095;
+$color-comm: #f2af05;
+$color-dev: #f2d856;
+$color-contact: #f26a05;
+$color-font: #1c2b3a;
