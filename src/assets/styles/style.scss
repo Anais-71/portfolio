@@ -12,12 +12,23 @@
   }
   h2 {
     margin-top: 0px;
+    margin-bottom: 35px;
     position: absolute;
     right: 50px;
     text-align: right;
     font-family: $font-title;
     font-size: $size-title;
     font-weight: 100;
+  }
+
+  h3 {
+    font-family: $font-big;
+    font-size: $size-subtitle;
+  }
+
+  h4 {
+    font-family: $font-title;
+    font-size: $size-medium;
   }
 
   .emphase {

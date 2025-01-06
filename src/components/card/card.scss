@@ -1,0 +1,45 @@
+@import '../../assets/styles/_variables';
+
+.cards {
+  width: 49%;
+  height: 191px;
+  background-color: $color-main;
+  overflow: hidden;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+
+  &__img {
+    width: 191px;
+    height: 191px;
+    object-fit: cover;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px;
+
+    &--title {
+      text-align: left;
+      font-weight: $font-medium;
+      font-size: $size-subtitle;
+      padding-left: 14px;
+      padding-right: 14px;
+    }
+
+    &--txt {
+      font-weight: $font-normal;
+      font-size: $size-normal;
+      padding: 14px;
+      text-align: justify;
+    }
+
+    &--link {
+      color: $color-font;
+      text-align: right;
+    }
+  }
+}

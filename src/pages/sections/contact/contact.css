@@ -1,0 +1,27 @@
+.contact {
+  display: flex;
+  margin: 145px 50px 50px 75px;
+  flex-direction: row;
+  width: 100%;
+}
+.contact__form {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  width: 65%;
+}
+.contact__links {
+  width: 35%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.contact__links--link img {
+  width: 150px;
+}
+.contact .btn {
+  align-self: flex-end;
+  margin-top: 15px;
+  width: 124px;
+}/*# sourceMappingURL=contact.css.map */

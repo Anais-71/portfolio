@@ -1,0 +1,39 @@
+.cards {
+  width: 49%;
+  height: 191px;
+  background-color: #d9d9d9;
+  overflow: hidden;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+}
+.cards__img {
+  width: 191px;
+  height: 191px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.cards__content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px;
+}
+.cards__content--title {
+  text-align: left;
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.cards__content--txt {
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 14px;
+  text-align: justify;
+}
+.cards__content--link {
+  color: #1c2b3a;
+  text-align: right;
+}/*# sourceMappingURL=card.css.map */

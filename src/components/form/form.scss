@@ -1,0 +1,51 @@
+@import '../../assets/styles/_variables';
+
+.form {
+  position: relative;
+  top: 90px;
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  display: flex;
+  gap: 12px;
+
+  &__group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  &__group textarea.form__input {
+    flex-grow: 1;
+    height: 100px;
+  }
+
+  &__label {
+    font-size: $size-medium;
+    font-weight: $font-main;
+    min-width: 120px;
+  }
+  &__input {
+    background-color: rgba($color-contact, 0.45);
+    border: none;
+    border-radius: 40px;
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    flex-grow: 1;
+  }
+
+  &__btn {
+    width: 124px;
+    height: 37px;
+    background-color: rgba($color-contact, 0.75);
+    border: none;
+    border-radius: 40px;
+    align-self: flex-end;
+  }
+}

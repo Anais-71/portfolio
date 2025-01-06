@@ -1,0 +1,129 @@
+.focus {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100000;
+}
+.focus--show {
+  display: block;
+}
+.focus__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  cursor: pointer;
+}
+.focus .modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  height: 80%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.focus .modal__header {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.focus .modal__header--close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+.focus .modal__content {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+}
+.focus .modal__content--img {
+  height: 100%;
+  width: 75%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -20px;
+}
+.focus .modal__content--img img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.focus .modal__content--details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-left: 20px;
+}
+.focus .modal__content--details--txt {
+  font-size: 16px;
+  line-height: 1.5;
+  padding-right: 60px;
+  text-align: justify;
+}
+.focus .modal__content--details--button {
+  width: 150px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+.focus .modal__content--details--button:hover {
+  background-color: #0056b3;
+}
+.focus__controls {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px;
+}
+.focus__controls--prev, .focus__controls--next {
+  border: none;
+  background: none;
+  color: #007bff;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5%;
+  transition: background-color 0.3s, color 0.3s;
+}
+.focus__controls--prev:hover, .focus__controls--next:hover {
+  background-color: #007bff;
+  color: white;
+}/*# sourceMappingURL=focus.css.map */

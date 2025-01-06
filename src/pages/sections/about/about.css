@@ -1,66 +1,25 @@
-.about {
-  position: absolute;
+.intro {
+  margin: 45px 50px 50px 155px;
   display: flex;
-  gap: 12px;
-  margin: 50px 0 50px 80px;
-  height: 90%;
-  width: 90%;
+  gap: 64px;
+  height: 750px;
 }
-.about__resume {
-  position: relative;
-  background-color: #f4c095;
-  border-radius: 40px;
+.intro__bloc {
+  background-color: #d9d9d9;
+  border-radius: 15px;
+  box-shadow: 10px 10px 9px 0px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  padding-left: 30px;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  padding: 30px;
-  cursor: pointer;
+  justify-content: space-evenly;
 }
-.about__resume--title {
-  height: 68%;
-  display: flex;
-  font: 500 2.25rem "Roboto Condensed", sans-serif;
-  text-wrap: wrap;
-  align-items: center;
-}
-.about__resume--title:active {
-  display: none;
-}
-.about__resume--txt {
-  display: none;
-}
-.about__resume--txt:active {
-  height: 68%;
-  display: flex;
-  text-wrap: wrap;
-  align-items: center;
-}
-.about__resume--logo {
-  position: absolute;
-  bottom: 0px;
-  width: 50%;
-  align-self: center;
-}
-.about__resume:active--title {
-  display: none;
-}
-.about__resume:active--txt {
-  display: flex;
-  height: 68%;
-  display: flex;
-  font: 500 2.25rem "Roboto Condensed", sans-serif;
-  text-wrap: wrap;
-  align-items: center;
-}
-.about__skills {
-  margin-top: 68px;
+.intro__bloc--logo {
   width: 80%;
+  justify-self: center;
 }
-.about__skills--comm {
-  height: 50%;
-  align-content: center;
-}
-.about__skills--dev {
-  height: 50%;
-  align-content: center;
+.intro__txt {
+  display: block;
+  align-self: center;
+  text-align: justify;
 }/*# sourceMappingURL=about.css.map */
