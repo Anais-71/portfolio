@@ -34,4 +34,13 @@
   .emphase {
     font-weight: $font-medium;
   }
+
+  @media (max-width: 1024px) {
+    h2 {
+      font-size: $size-subtitle;
+    }
+    h3 {
+      font-size: $size-normal;
+    }
+  }
 }

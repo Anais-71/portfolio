@@ -30,4 +30,26 @@
     margin-top: 15px;
     width: 124px;
   }
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    margin: 25px 15px 50px 35px;
+
+    &__form {
+      width: 75%;
+      margin-top: 30px;
+    }
+
+    &__links {
+      flex-direction: row;
+      margin-left: 80px;
+      margin-top: 30px;
+      &--link {
+        align-self: center;
+        img {
+          width: 100px;
+        }
+      }
+    }
+  }
 }

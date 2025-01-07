@@ -24,4 +24,25 @@
   align-self: flex-end;
   margin-top: 15px;
   width: 124px;
+}
+@media (max-width: 1024px) {
+  .contact {
+    flex-direction: column;
+    margin: 25px 15px 50px 35px;
+  }
+  .contact__form {
+    width: 75%;
+    margin-top: 30px;
+  }
+  .contact__links {
+    flex-direction: row;
+    margin-left: 80px;
+    margin-top: 30px;
+  }
+  .contact__links--link {
+    align-self: center;
+  }
+  .contact__links--link img {
+    width: 100px;
+  }
 }/*# sourceMappingURL=contact.css.map */

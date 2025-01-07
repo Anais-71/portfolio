@@ -22,4 +22,18 @@
   display: block;
   align-self: center;
   text-align: justify;
+}
+@media (max-width: 1024px) {
+  .intro {
+    flex-direction: column;
+    margin: 25px 15px 50px 75px;
+  }
+  .intro__bloc {
+    margin-top: 80px;
+    align-items: center;
+    flex-direction: row;
+  }
+  .intro__bloc--logo {
+    width: 40%;
+  }
 }/*# sourceMappingURL=about.css.map */

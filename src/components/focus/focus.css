@@ -127,4 +127,51 @@
 .focus__controls--prev:hover, .focus__controls--next:hover {
   background-color: #007bff;
   color: white;
+}
+@media (max-width: 1024px) {
+  .focus {
+    height: 100%;
+  }
+  .focus .container__content {
+    flex-direction: column;
+  }
+  .focus .container__content--img img {
+    height: 30%;
+    width: 100%;
+  }
+  .focus__controls--prev, .focus__controls--next {
+    font-size: 14px;
+  }
+}
+@media (max-width: 599px) {
+  .focus .container {
+    height: 100%;
+    overflow-y: auto;
+  }
+  .focus .container__content {
+    flex-direction: column;
+  }
+  .focus .container__content--img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .focus .container__content--img img {
+    height: 100%;
+  }
+  .focus .container__content--details--txt {
+    font-size: 14px;
+    padding-right: 0;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+  .focus .container__content--details--button {
+    position: relative;
+    margin-top: 20px;
+    align-self: center;
+  }
+  .focus .container__controls {
+    padding: 0 10px;
+  }
 }/*# sourceMappingURL=focus.css.map */

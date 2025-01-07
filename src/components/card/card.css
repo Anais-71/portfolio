@@ -36,4 +36,24 @@
 .cards__content--link {
   color: #1c2b3a;
   text-align: right;
+}
+@media (max-width: 1024px) {
+  .cards {
+    width: 100%;
+    height: auto;
+  }
+  .cards__img {
+    width: 100%;
+  }
+  .cards__content--title {
+    font-size: 1rem;
+  }
+  .cards__content--txt p {
+    font-size: 12px;
+  }
+  .cards .container {
+    background-color: #6997bf;
+    width: 35%;
+    padding: 0px;
+  }
 }/*# sourceMappingURL=card.css.map */

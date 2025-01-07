@@ -3,13 +3,15 @@ import './card.css'
 const Card = ({ image, title, text, link, onImageClick }) => {
   return (
     <div className="cards">
-      <img
-        src={image}
-        alt={title}
-        className="cards__img"
-        onClick={onImageClick}
-        style={{ cursor: 'pointer' }}
-      />
+      <div className="container">
+        <img
+          src={image}
+          alt={title}
+          className="cards__img"
+          onClick={onImageClick}
+          style={{ cursor: 'pointer' }}
+        />
+      </div>
       <div className="cards__content">
         <div className="cards__content--title">{title}</div>
         <div className="cards__content--txt">

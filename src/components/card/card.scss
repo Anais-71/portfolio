@@ -42,4 +42,29 @@
       text-align: right;
     }
   }
+
+  @media (max-width: 1024px) {
+    width: 100%;
+    height: auto;
+    &__img {
+      width: 100%;
+    }
+
+    &__content {
+      &--title {
+        font-size: $size-normal;
+      }
+      &--txt {
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+
+    .container {
+      background-color: #6997bf;
+      width: 35%;
+      padding: 0px;
+    }
+  }
 }

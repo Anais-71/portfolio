@@ -8,7 +8,6 @@
   margin-top: 75px;
   display: flex;
   gap: 15px;
-  height: 380px;
 }
 .skills__com--carousel {
   width: 380px;
@@ -16,11 +15,29 @@
 .skills__dev {
   display: flex;
   gap: 15px;
-  height: 380px;
   justify-content: space-between;
 }
 .skills__dev--carousel {
   width: 380px;
+}
+@media (max-width: 1024px) {
+  .skills {
+    flex-direction: column;
+    margin: 500px 15px 50px 75px;
+  }
+  .skills__com {
+    flex-direction: column;
+  }
+  .skills__com--carousel {
+    width: 200px;
+  }
+  .skills__dev {
+    margin-top: 120px;
+    flex-direction: column;
+  }
+  .skills__dev--carousel {
+    width: 200px;
+  }
 }
 
 ul li {

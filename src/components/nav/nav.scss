@@ -9,4 +9,22 @@
     transform: rotate(-90deg);
     color: black;
   }
+
+  @media (max-width: 600px) {
+    .nav {
+      width: 30px;
+    }
+    a {
+      // width: 30%;
+      font-size: 12px;
+    }
+
+    &-item {
+      width: 50px;
+    }
+
+    .nav-link {
+      width: 75px;
+    }
+  }
 }

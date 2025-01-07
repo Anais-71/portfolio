@@ -4,4 +4,10 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+}
+@media (max-width: 1024px) {
+  .projects {
+    flex-direction: column;
+    margin: 100px 15px 50px 75px;
+  }
 }/*# sourceMappingURL=projects.css.map */

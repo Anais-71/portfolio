@@ -28,4 +28,12 @@
 }
 * .emphase {
   font-weight: 500;
+}
+@media (max-width: 1024px) {
+  * h2 {
+    font-size: 1.5rem;
+  }
+  * h3 {
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=style.css.map */

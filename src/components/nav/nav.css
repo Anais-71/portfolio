@@ -8,4 +8,18 @@
   width: 110px;
   transform: rotate(-90deg);
   color: black;
+}
+@media (max-width: 600px) {
+  .nav .nav {
+    width: 30px;
+  }
+  .nav a {
+    font-size: 12px;
+  }
+  .nav-item {
+    width: 50px;
+  }
+  .nav .nav-link {
+    width: 75px;
+  }
 }/*# sourceMappingURL=nav.css.map */
