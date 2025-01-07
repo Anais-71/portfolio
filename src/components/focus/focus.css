@@ -21,7 +21,7 @@
   z-index: 1;
   cursor: pointer;
 }
-.focus .modal {
+.focus .container {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -34,13 +34,14 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  z-index: 1000000000;
 }
-.focus .modal__header {
+.focus .container__header {
   display: flex;
   width: 100%;
   margin-bottom: 20px;
 }
-.focus .modal__header--close {
+.focus .container__header--close {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -49,14 +50,14 @@
   font-size: 15px;
   cursor: pointer;
 }
-.focus .modal__content {
+.focus .container__content {
   display: flex;
   align-items: stretch;
   width: 100%;
   height: 100%;
   justify-content: space-between;
 }
-.focus .modal__content--img {
+.focus .container__content--img {
   height: 100%;
   width: 75%;
   overflow: hidden;
@@ -65,27 +66,27 @@
   align-items: center;
   margin-left: -20px;
 }
-.focus .modal__content--img img {
+.focus .container__content--img img {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
 }
-.focus .modal__content--details {
+.focus .container__content--details {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
   margin-left: 20px;
 }
-.focus .modal__content--details--txt {
+.focus .container__content--details--txt {
   font-size: 16px;
   line-height: 1.5;
   padding-right: 60px;
   text-align: justify;
 }
-.focus .modal__content--details--button {
+.focus .container__content--details--button {
   width: 150px;
   position: absolute;
   bottom: 20px;
@@ -100,7 +101,7 @@
   font-weight: bold;
   transition: background-color 0.3s;
 }
-.focus .modal__content--details--button:hover {
+.focus .container__content--details--button:hover {
   background-color: #0056b3;
 }
 .focus__controls {

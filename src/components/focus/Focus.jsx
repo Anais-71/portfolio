@@ -28,16 +28,16 @@ const Focus = ({ show, handleClose, projectsData, selectedCardIndex }) => {
     <div className={`focus ${show ? 'focus--show' : ''}`}>
       <div className="focus__overlay" onClick={handleClose}></div>
 
-      <div className="modal">
-        <div className="modal__header">
-          <h3 className="modal__header--title">{project.title}</h3>
-          <button className="modal__header--close" onClick={handleClose}>
+      <div className="container">
+        <div className="container__header">
+          <h3 className="container__header--title">{project.title}</h3>
+          <button className="container__header--close" onClick={handleClose}>
             X
           </button>
         </div>
 
-        <div className="modal__content">
-          <div className="modal__content--img">
+        <div className="container__content">
+          <div className="container__content--img">
             {project.focusImg ? (
               <img src={project.focusImg} alt={project.title} />
             ) : (
@@ -45,17 +45,19 @@ const Focus = ({ show, handleClose, projectsData, selectedCardIndex }) => {
             )}
           </div>
 
-          <div className="modal__content--details">
+          <div className="container__content--details">
             {Array.isArray(project.resume) ? (
               project.resume.map((line, index) => (
-                <p key={index} className="modal__content--details--txt">
+                <p key={index} className="container__content--details--txt">
                   {line}
                 </p>
               ))
             ) : (
-              <p className="modal__content--details--txt">{project.resume}</p>
+              <p className="container__content--details--txt">
+                {project.resume}
+              </p>
             )}
-            <div className="modal__content--details--button">
+            <div className="container__content--details--button">
               {project.link && (
                 <a
                   href={project.link.url}

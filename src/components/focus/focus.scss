@@ -25,7 +25,7 @@
     cursor: pointer;
   }
 
-  .modal {
+  .container {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -38,6 +38,7 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    z-index: 1000000000;
 
     &__header {
       display: flex;
